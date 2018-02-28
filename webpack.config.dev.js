@@ -14,7 +14,7 @@ module.exports = {
 		path: path.resolve(__dirname, 'dist'),
 		publicPath: '/dist'
 	},
-	mode: 'production',
+	mode: 'development',
 	context: path.resolve(__dirname, 'src'),
 	watch: false,
 	devtool: 'source-map',
