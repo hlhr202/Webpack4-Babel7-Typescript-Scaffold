@@ -68,7 +68,7 @@ module.exports = {
 					`assets/${timeStamp}/js/vendor.js`,
 					`assets/${timeStamp}/js/bundle.js`
 				],
-				additional: [`assets/${timeStamp}/static/*.png`]
+				//additional: [`assets/${timeStamp}/static/*.png`]
 			},
 			externals: ['/'],
 			autoUpdate: 1000 * 60 * 60 * 24,
