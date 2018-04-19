@@ -15,8 +15,11 @@ OfflinePluginRuntime.install({
 })
 
 class Root extends React.PureComponent {
+	readonly state = {
+		fuck: 'fuck'
+	}
 	render() {
-		return <div>Hello World!</div>
+		return <div>Hello World! {this.state.fuck}</div>
 	}
 }
 
